@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".loginscreen">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/kojpylogin"
+        android:scaleType="fitXY"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/assistant"
+        android:text="Explore endless knowledge with our intuitive app."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+
+        android:textSize="25dp" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailloginscreen"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/alegreya_sc"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/passwordloginscreen"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/edittext"
+        android:fontFamily="@font/alegreya_sc"
+        android:hint="Enter password"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Signinbtnloginscreen"
+        android:layout_width="280dp"
+        android:layout_height="42dp"
+        android:background="@drawable/buttons"
+        android:layout_below="@id/passwordloginscreen"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alegreya_sc"
+
+
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:fontFamily="@font/alegreya_sc"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Signinbtnloginscreen"
+        android:textSize="20dp"
+
+
+
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/signuploginscreenn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:layout_below="@id/Signinbtnloginscreen"
+        android:textColor="@color/light_blue"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="260dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:textSize="20dp"
+
+
+        />
+
+
+
+
+
+
+</RelativeLayout>
